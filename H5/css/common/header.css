@@ -1,0 +1,66 @@
+.header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 1.2rem;
+    background: #000000;
+    box-shadow: 0px 0.0267rem 0px 0px rgba(255, 255, 255, 0.2200);
+    /* opacity: 0.4; */
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.4267rem;
+    border-bottom: 0;
+}
+
+.header .left {}
+
+.header .left img {
+    width: 2.4133rem;
+    height: 0.44rem;
+}
+
+.header .right {}
+
+.header .right img {
+    width: 0.4rem;
+    height: 0.4267rem;
+}
+.headerNav {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    background-color: #000000;
+    width: 100%;
+    height: 100vh;
+}
+
+.headerNav .centerBox {
+    font-size: 0.48rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #666666;
+    /* opacity: 0.4; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.headerNav .centerBox .item {
+    text-align: center;
+}
+
+.headerNav .centerBox .itemActive {
+    font-size: 0.48rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.headerNav .centerBox .item:nth-child(2) {
+    margin: 1.7067rem 0;
+}

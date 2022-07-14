@@ -1,0 +1,207 @@
+.banner {
+    padding-top: 1.2rem;
+}
+
+.solution {
+    margin-top: 0.8rem;
+}
+
+.solution .headerIt .title {
+    font-size: 0.5067rem;
+    font-family: Microsoft YaHei;
+    font-weight: 300;
+    color: #333333;
+    text-align: center;
+}
+
+.solution .headerIt .desc {
+    font-size: 0.32rem;
+    font-family: Microsoft YaHei;
+    font-weight: 300;
+    color: #666666;
+    margin-top: 0.2933rem;
+    text-align: center;
+}
+
+.solution .solutionList {
+    padding: 0 0.4267rem;
+    margin-top: 0.6667rem;
+}
+
+.solution .solutionList .solutionItem {
+    box-shadow: 0px 0px 0.7733rem 0px rgba(174, 174, 174, 0.2300);
+    border-radius: 0.2133rem;
+    overflow: hidden;
+}
+
+.solution .solutionList .solutionItem .imgBox {}
+
+.solution .solutionList .solutionItem .sHeader {
+    padding: 0 0.44rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5333rem;
+}
+
+.solution .solutionList .solutionItem .sHeader .l {
+
+    font-size: 0.3867rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #333333;
+    line-height: 0.56rem;
+}
+
+.solution .solutionList .solutionItem .sHeader .l .num {}
+
+.solution .solutionList .solutionItem .sHeader .l .name {}
+
+.solution .solutionList .solutionItem .sHeader .r {
+    text-align: center;
+    font-size: 0.2667rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    width: 2.44rem;
+    height: 0.6133rem;
+    background: #000000;
+    position: relative;
+}
+
+.solution .solutionList .solutionItem .sHeader .r .rl {
+    position: absolute;
+    left: 0.1067rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0.0267rem;
+    height: 0.1867rem;
+    background: #FFFFFF;
+}
+
+.solution .solutionList .solutionItem .sHeader .r .rc {
+    line-height: 0.6133rem;
+}
+
+.solution .solutionList .solutionItem .sHeader .r .rr {
+    position: absolute;
+    top: 50%;
+    right: 0.1733rem;
+    transform: translateY(-50%);
+    width: 0.28rem;
+}
+
+.solution .solutionList .solutionItem .line {
+    width: 0.4267rem;
+    height: 0.04rem;
+    background: #BCBCBC;
+    margin: 0.4rem 0;
+    margin-left: 0.44rem;
+    ;
+}
+
+.solution .solutionList .solutionItem .conTxt {
+    padding: 0 0.44rem;
+    font-size: 0.32rem;
+    font-family: Microsoft YaHei;
+    font-weight: 300;
+    color: #666666;
+    line-height: 0.48rem;
+    padding-bottom: 0.4rem;
+}
+
+.solution .solutionList .solutionItem:nth-child(n+2) {
+    margin-top: 0.5333rem;
+}
+
+.team {
+    position: relative;
+    margin-top: 1.44rem;
+    background: #F2F2F2;
+    padding-top: 1rem;
+    padding-bottom: 1.44rem;
+    /* height: 8.8667rem;
+    width: 100%;
+    background: url("../../image/solution/service_bottom_1.png"); */
+}
+
+.team .imgBgc {
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* height: 8.88rem; */
+}
+
+.team .headerIt .title {
+    font-size: 0.5067rem;
+    font-family: Microsoft YaHei;
+    font-weight: 300;
+    color: #333333;
+    text-align: center;
+}
+
+.team .headerIt .desc {
+    font-size: 0.32rem;
+    font-family: Microsoft YaHei;
+    font-weight: 300;
+    color: #666666;
+    margin-top: 0.2933rem;
+    text-align: center;
+}
+
+.team .teamClass {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 1.2rem;
+    background: #F2F2F2;
+}
+
+.team .teamClass .teamItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 0.7333rem; */
+    width: 2.0933rem;
+    font-size: 0.32rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    background: #F2F2F2;
+    color: #333333;
+    width: 33.33%;
+}
+
+.team .teamClass .teamItem .cimg {
+    margin-bottom: 0.3333rem;
+}
+
+.team .teamClass .teamItem:nth-child(1) .cimg {
+    width: 0.56rem;
+    height: 0.7333rem;
+}
+
+.team .teamClass .teamItem:nth-child(2) .cimg {
+    width: 0.7467rem;
+    height: 0.7467rem;
+}
+
+.team .teamClass .teamItem:nth-child(3) .cimg {
+    width: 0.5067rem;
+    height: 0.7333rem;
+}
+.team .teamClass .teamItem:nth-child(4) .cimg {
+    width: 0.7333rem;
+    height: 0.6933rem;
+}
+.team .teamClass .teamItem:nth-child(5) .cimg {
+    width: 0.7467rem;
+    height: 0.7467rem;
+}
+.team .teamClass .teamItem:nth-child(6) .cimg {
+    width: 0.7467rem;
+    height: 0.68rem;
+}
+.team .teamClass .teamItem:nth-child(n+4){
+    margin-top: 1.4133rem;
+    margin-top: 1.2rem;
+}

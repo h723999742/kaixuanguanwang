@@ -1,0 +1,194 @@
+.banner {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    /* background: url("../../images/solution/banner1.png") 100% no-repeat;
+    height: 580px;
+    width: 1920px; */
+}
+
+.solutionList {
+    margin-top: 95px;
+}
+
+.solutionList .serveHeader .title {
+    font-size: 38px;
+    font-family: Microsoft YaHei;
+    font-weight: 300;
+    color: #333333;
+    text-align: center;
+}
+
+.solutionList .serveHeader .intro {
+    font-size: 18px;
+    font-family: Microsoft YaHei;
+    font-weight: 300;
+    color: #666666;
+    text-align: center;
+    margin-top: 19px;
+}
+
+.solutionList .solutionbox {
+    margin-top: 73px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1400px;
+}
+
+.solutionList .solutionbox .odd {}
+
+.solutionList .solutionbox .odd .left {
+    position: relative;
+    /* background-color: pink; */
+    width: 700px;
+    height: 452px;
+    float: left;
+}
+
+.solutionList .solutionbox .odd .left .content {
+    position: absolute;
+    left: 118px;
+    top: 92px;
+}
+
+
+.solutionList .solutionbox .odd .left .content .one {
+    font-size: 29px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #333333;
+}
+
+.solutionList .solutionbox .odd .left .content .two {
+    font-size: 29px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #333333;
+}
+
+.solutionList .solutionbox .odd .left .content .line {
+    width: 32px;
+    height: 3px;
+    background: #BCBCBC;
+    margin: 30px 0;
+}
+
+.solutionList .solutionbox .odd .left .content .ctxt {
+    width: 460px;
+    height: 58px;
+    font-size: 13px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #666666;
+    line-height: 22px;
+}
+
+.solutionList .solutionbox .odd .left .content .consultBtn {
+    width: 173px;
+    height: 36px;
+    background: #000000;
+    margin-top: 44px;
+    text-align: center;
+    line-height: 36px;
+    color: #FFF;
+    position: relative;
+    cursor: pointer;
+}
+
+.solutionList .solutionbox .odd .left .content .consultBtn::before {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 14px;
+    background: #FFFFFF;
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.solutionList .solutionbox .odd .left .content .consultBtn .ztext {}
+
+.solutionList .solutionbox .odd .left .content .consultBtn img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 13px;
+    width: 26px;
+    height: 7px;
+}
+
+.solutionList .solutionbox .odd .right {
+    width: 700px;
+    float: left;
+}
+
+.team {
+    background-color: #F2F2F2;
+    /* width: 1920px; */
+    height: 620px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.team .centerBgc {
+    width: 1400px;
+    height: 620px;
+    background: url("../../images/solution/service_bottom_1.png") 100% no-repeat;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.team .teamHeader {
+    padding-top: 120px;
+}
+
+.team .teamHeader .title {
+    font-size: 38px;
+    font-family: Microsoft YaHei;
+    font-weight: 300;
+    color: #333333;
+    text-align: center;
+}
+
+.team .teamHeader .intro {
+    font-size: 18px;
+    font-family: Microsoft YaHei;
+    font-weight: 300;
+    color: #666666;
+    text-align: center;
+    margin-top: 19px;
+}
+.team .centerBgc .teamBox {
+    margin-top: 114px;
+}
+.team .centerBgc .teamBox .teamItem {
+    width: 94px;
+    float: left;
+    width: 16.66%;
+}
+
+.team .centerBgc .teamBox .teamItem .imgBox {
+    width: 76px;
+    height: 100px;
+    margin: auto;
+}
+
+.team .centerBgc .teamBox .teamItem img {
+    width: 76px;
+    margin: auto;
+
+}
+
+.team .centerBgc .teamBox .teamItem .text {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #333333;
+}

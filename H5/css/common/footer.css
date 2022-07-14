@@ -1,0 +1,17 @@
+.footer {
+    height: 2rem;
+    background: #1C1F2C;
+    font-size: 0.2667rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #93949A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.2rem;
+}
+
+.footer .two {
+    margin-top: 0.36rem;
+}

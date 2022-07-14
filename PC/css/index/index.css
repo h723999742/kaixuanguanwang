@@ -1,0 +1,502 @@
+.swiper {
+    width: 100%;
+    height: 780px;
+
+}
+
+.swiper img {
+    width: 100%;
+    height: 780px;
+
+}
+
+.swiper video {
+    width: 100%;
+    /* height: 780px; */
+}
+
+.serve {
+    margin-top: 90px;
+    position: relative;
+    left: 50%;
+    width: 1400px;
+    transform: translateX(-50%);
+}
+
+.serve .serveHeader .title {
+    font-size: 38px;
+    font-family: Microsoft YaHei;
+    font-weight: 300;
+    color: #333333;
+    text-align: center;
+}
+
+.serve .serveHeader .intro {
+    font-size: 18px;
+    font-family: Microsoft YaHei;
+    font-weight: 300;
+    color: #666666;
+    text-align: center;
+    margin-top: 19px;
+}
+
+.serve .serveContent {
+    margin-top: 80px;
+}
+
+.serve .serveContent .one li {
+    float: left;
+    position: relative;
+}
+
+.serve .serveContent .one li .home_1 {
+    position: absolute;
+    left: 78px;
+    top: 102px;
+    color: #FFF;
+}
+
+.serve .serveContent .one li .home_1 .home_1_item:nth-child(1) {
+    font-size: 25px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.serve .serveContent .one li .home_1 .home_1_item:nth-child(1) .line {
+    width: 46px;
+    height: 2px;
+    background: #FFFFFF;
+    float: left;
+    margin-right: 9px;
+}
+
+.serve .serveContent .one li .home_1 .home_1_item:nth-child(2) {
+    font-size: 30px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 12px;
+}
+
+.serve .serveContent .one li .home_1 .classify {
+    margin-top: 37px;
+    width: 320px;
+    font-size: 16px;
+    font-family: Microsoft YaHei;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+.serve .serveContent .one li .home_1 .classify .classifyLefy {
+    float: left;
+}
+
+.serve .serveContent .one li .home_1 .classify .classifyLefy .classifyItem:nth-child(n+2) {
+    margin-top: 16px;
+}
+
+.serve .serveContent .one li .home_1 .classify .classifyRight {
+
+    float: right;
+    margin-left: 42px;
+}
+
+.serve .serveContent .one li .home_1 .classify .classifyRight .classifyItem:nth-child(n+2) {
+    margin-top: 16px;
+}
+
+.serve .serveContent .one li .home_1 .details {
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.serve .serveContent .one li .home_1 .details img {
+    width: 26px;
+    height: 7px;
+}
+
+
+.serve .serveContent .one li .home_1 .details .x {
+    font-size: 12px;
+    font-family: Microsoft YaHei;
+    font-weight: 300;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-top: 8px;
+}
+
+/* two */
+.serve .serveContent .one li .home_2 {
+    position: absolute;
+    right: 80px;
+    top: 102px;
+    color: #FFF;
+}
+
+.serve .serveContent .one li .home_2 .home_2_item:nth-child(1) {
+    font-size: 25px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.serve .serveContent .one li .home_2 .home_2_item:nth-child(1) .line {
+    width: 46px;
+    height: 2px;
+    background: #FFFFFF;
+    float: left;
+    margin-right: 9px;
+}
+
+.serve .serveContent .one li .home_2 .home_2_item:nth-child(2) {
+    font-size: 30px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 12px;
+    text-align: right;
+}
+
+.serve .serveContent .one li .home_2 .classify {
+    margin-top: 37px;
+    width: 200px;
+    position: relative;
+    right: 0;
+    font-size: 16px;
+    font-family: Microsoft YaHei;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+.serve .serveContent .one li .home_2 .classify .classifyLefy {
+    float: left;
+
+}
+
+.serve .serveContent .one li .home_2 .classify .classifyLefy .classifyItem:nth-child(n+2) {
+    margin-top: 16px;
+    /* text-align: right; */
+}
+
+.serve .serveContent .one li .home_2 .classify .classifyRight {
+
+    float: right;
+    margin-left: 42px;
+}
+
+.serve .serveContent .one li .home_2 .classify .classifyRight .classifyItem:nth-child(n+2) {
+    margin-top: 16px;
+
+}
+
+.serve .serveContent .one li .home_2 .classify .classifyItem {
+    text-align: right;
+}
+
+.serve .serveContent .one li .home_2 .details {
+    margin-top: 40px;
+    cursor: pointer;
+    float: right;
+}
+
+.serve .serveContent .one li .home_2 .details img {
+    width: 26px;
+    height: 7px;
+}
+
+
+.serve .serveContent .one li .home_2 .details .x {
+    font-size: 12px;
+    font-family: Microsoft YaHei;
+    font-weight: 300;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-top: 8px;
+}
+
+/* two */
+.serve .serveContent .one li img {
+    width: 700px;
+}
+
+.serve .serveContent .two li {
+    float: left;
+}
+
+.serve .serveContent .two li img {
+    width: 910px;
+}
+
+.serve .serveContent .two li:nth-child(2) {
+    width: 490px;
+    background-color: #2E2E2E;
+    height: 437px;
+}
+
+.serve .serveContent .two li:nth-child(2) .home_2 .classify {}
+
+.serve .serveContent .two li:nth-child(2) .home_2 .classify .classifyRight {
+    /* float: left; */
+    /* margin-left: 0; */
+}
+
+.serve .serveContent .two li:nth-child(2) .home_2 .classify .classifyItem {}
+
+/* nav */
+.navBox {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1400px;
+    margin-top: 40px;
+}
+
+.navBox ul li {
+    float: left;
+    width: 33.33333%;
+    /* background-color: pink; */
+    /* height: 300px; */
+}
+
+.navBox ul li .plogo {}
+
+.navBox ul li .plogo .shou {
+    font-size: 74px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #EAEAEA;
+    float: left;
+}
+
+.navBox ul li .plogo .pIcon {
+    float: left;
+    margin-left: 16px;
+    margin-top: 50px;
+}
+
+.navBox ul li .plogo .pIcon img {
+    width: 19px;
+}
+
+.navBox ul li .title {
+    font-size: 23px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #333333;
+    margin-top: 10px;
+}
+
+.navBox ul li .pClassify {
+    font-size: 16px;
+    font-family: Microsoft YaHei;
+    font-weight: 300;
+    color: #666666;
+    width: 400px;
+    margin-top: 32px;
+}
+
+.navBox ul li .pClassify .pClassifyItem {
+    float: left;
+    padding: 0 77px 0 0;
+}
+
+.navBox ul li .pClassify .pClassifyItem:nth-child(n+3) {
+    margin-top: 8px;
+}
+
+.navBox ul li .details {
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.navBox ul li .details img {
+    width: 26px;
+    height: 7px;
+}
+
+.navBox ul li .details .text {
+
+    font-size: 12px;
+    font-family: Microsoft YaHei;
+    font-weight: 300;
+    color: #666666;
+    margin-top: 9px;
+}
+
+/* 关于我们 */
+
+.aboutBox {
+    height: 628px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 95px;
+    background: url("../../images/index/bg.png") no-repeat;
+}
+
+.aboutBox .aboutHeader {
+    padding-top: 100px;
+}
+
+.aboutBox .aboutHeader .title {
+    font-size: 38px;
+    font-family: Microsoft YaHei;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+}
+
+.aboutBox .aboutHeader .intro {
+    font-size: 18px;
+    font-family: Microsoft YaHei;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    margin-top: 19px;
+}
+
+.aboutBox .contentBox {
+    position: absolute;
+    margin-top: 80px;
+    width: 1400px;
+    background-color: #FFF;
+    left: 50%;
+    padding: 80px 100px;
+    box-sizing: border-box;
+    transform: translateX(-50%);
+}
+
+.aboutBox .contentBox .left {
+    float: left;
+}
+
+.aboutBox .contentBox .left img {
+    width: 342px;
+}
+
+.aboutBox .contentBox .right {
+    /* margin-left: 60px; */
+    float: left;
+    margin-left: 60px;
+    width: 798px;
+}
+
+.aboutBox .contentBox .right .rTitle {
+    font-size: 53px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #333333;
+}
+
+.aboutBox .contentBox .right .join {
+    font-size: 25px;
+    font-family: Microsoft YaHei;
+    font-weight: 300;
+    color: #333333;
+    margin: 22px 0 42px 0;
+}
+
+.aboutBox .contentBox .right .conTxt {
+    font-size: 16px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #666666;
+    line-height: 26px;
+}
+
+/* 合作客户 */
+.client {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1400px;
+    margin-top: 138px;
+}
+
+.client .circle {
+    background: #000000;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.client .circle1 {
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    line-height: 65px;
+    color: #FFF;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.client .circle2 {
+    width: 16px;
+    height: 16px;
+    margin-top: 7px;
+
+}
+
+.client .circle3 {
+    width: 8px;
+    height: 8px;
+    margin-top: 7px;
+}
+
+.client .clientHeader {
+    margin-top: 50px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.client .clientHeader .title {
+    font-size: 38px;
+    font-family: Microsoft YaHei;
+    font-weight: 300;
+    color: #333333;
+    text-align: center;
+}
+
+.client .clientHeader .intro {
+    font-size: 18px;
+    font-family: Microsoft YaHei;
+    font-weight: 300;
+    color: #333333;
+    text-align: center;
+    margin-top: 19px;
+}
+
+.client .partnerBox {
+    margin-top: 66px;
+}
+
+.client .partnerBox .partnerItem {
+    float: left;
+
+}
+
+.client .partnerBox .partnerItem:hover {
+    /* margin-right: 10px; */
+    background: #FFFFFF;
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.1300);
+    position: relative;
+    transition: all 0.3s;
+}
+
+
+.client .partnerBox .clientActive {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.1300);
+    position: relative;
+}
+
+
+

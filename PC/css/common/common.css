@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 1200px;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.w1 {
+    width: 1400px;
+    margin: 0 auto;
+}
+li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+   vertical-align: bottom;
+}
+
+ul li {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 清除浮动 */
+
+.clearfloat {
+    clear: both
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+
+/* 右侧联系方式 */
+.rightRelation {
+    display: none;
+    position: fixed;
+    z-index: 99999;
+    right: 0;
+    top: 300px;
+    width: 54px;
+    height: 282px;
+}
+
+.rightRelation .relationItem {
+    position: relative;
+    width: 54px;
+    height: 54px;
+    background: #C3C3C3;
+    opacity: 0.8;
+}
+
+.rightRelation .relationItem img {
+    /* display: block; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* margin: auto; */
+}
+
+.rightRelation .relationItem:nth-child(1) img {
+    width: 26px;
+    height: 27px;
+}
+
+.rightRelation .relationItem:nth-child(2) img {
+    width: 26px;
+    height: 26px;
+}
+
+.rightRelation .relationItem:nth-child(3) img {
+    width: 28px;
+    height: 27px;
+}
+
+.rightRelation .relationItem .juxing {
+    position: absolute;
+    display: none;
+    right: 0;
+    width: 210px;
+    height: 54px;
+    background: #646464;
+}
+
+.rightRelation .relationItem:nth-child(2) .juxing {}
+
+.rightRelation .relationItem:nth-child(1) .juxing img {
+    float: left;
+    left: 32px;
+}
+
+.rightRelation .relationItem:nth-child(1) .juxing .txt {
+    font-size: 18px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    float: left;
+    line-height: 54px;
+    padding-left: 54px;
+}
+.rightRelation .relationItem:nth-child(2) .juxing img {
+    float: left;
+    left: 32px;
+}
+
+.rightRelation .relationItem:nth-child(2) .juxing .txt {
+    font-size: 18px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    float: left;
+    line-height: 54px;
+    padding-left: 54px;
+}
+.rightRelation .relationItem:nth-child(3) .juxing{
+    right: 54px;
+    width: 140px;
+    height: 140px;
+    bottom: 0;
+    opacity: 10;
+}
+.rightRelation .relationItem:nth-child(3) .juxing img {
+    /* float: left;
+    left: 32px; */
+    padding: 5px;
+    box-sizing: border-box;
+    width: 130px;
+    height: 130px;
+}

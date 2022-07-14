@@ -1,0 +1,281 @@
+.swiper {
+    /* width: 100%; */
+}
+
+.joinBox {
+    padding: 0 0.24rem;
+    padding-top: 0.9333rem;
+    position: relative;
+    padding-bottom: 0.8267rem;
+}
+
+.joinBox .headerIt .title {
+
+    font-size: 0.4267rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #333333;
+    text-align: center;
+}
+
+.joinBox .headerIt .desc {
+    font-size: 0.32rem;
+    font-family: Microsoft YaHei;
+    font-weight: 300;
+    color: #666666;
+    margin-top: 0.2933rem;
+    text-align: center;
+}
+
+.joinBox .aboutCon .imgBgc {
+    position: relative;
+    /* position: absolute; */
+    /* left: 0; */
+    /* top: 0; */
+    margin-top: 1.04rem;
+}
+
+.joinBox .aboutCon .imgBgc .aboutUs {
+    position: absolute;
+    left: 4.08rem;
+    top: 0;
+    font-size: 0.5333rem;
+    font-family: Alibaba;
+    font-weight: normal;
+    font-style: italic;
+    color: #E3E4E4;
+}
+
+.joinBox .aboutCon .imgBgc .con {
+    position: absolute;
+    left: 4.08rem;
+    top: 1.1467rem;
+    top: 0.9333rem;
+}
+
+.joinBox .aboutCon .imgBgc .con .name {
+    font-size: 0.3733rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.joinBox .aboutCon .imgBgc .con .line {
+    width: 0.4rem;
+    height: 0.0267rem;
+    background: #FFFFFF;
+    margin: 0.3rem 0;
+}
+
+.joinBox .aboutCon .imgBgc .con .text {
+    font-size: 0.2667rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 0.4rem;
+    padding-right: 0.2667rem;
+}
+
+.advantage {
+    padding-top: 1.0667rem;
+    background: #F8F9FA;
+    padding-bottom: 1.0667rem;
+}
+
+.advantage .headerIt .title {
+    font-size: 0.4267rem;
+    font-family: SourceHanSansCN;
+    font-weight: 400;
+    color: #333333;
+    text-align: center;
+}
+
+.advantage .headerIt .desc {
+    font-size: 0.1867rem;
+    font-family: SourceHanSansCN;
+    font-weight: 400;
+    color: #9B9B9B;
+    margin-top: 0.2933rem;
+    text-align: center;
+}
+
+.advantage .advantageList {
+    padding: 0 0.2667rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 0.8rem;
+}
+
+.advantage .advantageList .advantageItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 4.4267rem;
+    height: 4.8rem;
+    height: 5.3333rem;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 50px 0px rgba(190, 216, 235, 0.0800);
+}
+
+.advantage .advantageList .advantageItem:nth-child(n+3) {
+    margin-top: 0.2933rem;
+}
+
+.advantage .advantageList .advantageItem .imgBox {
+    width: 1.12rem;
+}
+
+.advantage .advantageList .advantageItem .title {
+    font-size: 0.32rem;
+    font-family: SourceHanSansCN;
+    font-weight: 400;
+    color: #1E2046;
+    font-weight: bold;
+    padding: 0.48rem 0 0.3733rem;
+}
+
+.advantage .advantageList .advantageItem .cont {
+    padding: 0 0.3333rem;
+    font-size: 0.2667rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #1E2046;
+    line-height: 0.4267rem;
+    opacity: 0.8;
+}
+
+.culture {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.culture .cultureItem {
+    width: 50%;
+    height: 6.9867rem;
+    position: relative;
+}
+
+.culture .cultureItem .top {
+    padding-top: 0.9333rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.culture .cultureItem .top .tx {
+    font-size: 0.4933rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.culture .cultureItem .top .line {
+    width: 0.0267rem;
+    height: 0.3067rem;
+    background: #FFFFFF;
+    margin: 0.3733rem 0 0.44rem;
+}
+
+.culture .cultureItem .top .en {
+    font-size: 0.3067rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.culture .cultureItem .imgBox {
+    position: absolute;
+    bottom: 0;
+}
+
+.culture .cultureItem:nth-child(1) {
+    background: #1B1B1B;
+}
+
+.culture .cultureItem:nth-child(1) .imgBox {
+    background: #1B1B1B;
+    width: 3.3733rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.culture .cultureItem:nth-child(2) {
+    background: #222222;
+}
+
+.culture .cultureItem:nth-child(2) .imgBox {
+    background: #1B1B1B;
+    width: 3.28rem;
+    right: 0;
+}
+
+.culture .cultureItem:nth-child(3) {
+    background: #0A0605;
+}
+
+.culture .cultureItem:nth-child(4) {
+    background: #282828;
+}
+
+.relation {
+    padding-top: 1.0667rem;
+    height: 11.6rem;
+    background: url("../../image/about/lianxi.png") 100% no-repeat;
+    background-size: 100% 11.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.relation .headerIt .title {
+
+    font-size: 0.4267rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #333333;
+    text-align: center;
+}
+
+.relation .headerIt .desc {
+    font-size: 0.32rem;
+    font-family: Microsoft YaHei;
+    font-weight: 300;
+    color: #666666;
+    margin-top: 0.2933rem;
+    text-align: center;
+}
+
+.relation .ewm {
+    width: 2.6667rem;
+    height: 2.6667rem;
+    margin-top: 0.8rem;
+}
+
+.relation .phone {
+   display: flex;
+   align-items: center;
+   margin-top: 0.72rem;
+}
+
+.relation .phone .l {
+    width: 0.2933rem;
+    height: 0.2933rem;
+}
+
+.relation .phone .r {
+    font-size: 0.24rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #4B5C66;
+    margin-left: 0.2667rem;
+}
+.relation  .pNum{
+    margin-top: 0.4rem;
+    font-size: 0.32rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #333333;
+}
