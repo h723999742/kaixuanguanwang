@@ -1,13 +1,5 @@
 $(function () {
-    // 顶部是否隐藏
-    $(document).scroll(function () {
-        var scrollTop = $(this).scrollTop()
-        if (scrollTop >= 706) {
-            $('.header').hide()
-        } else {
-            $('.header').show()
-        }
-    });
+
     $('.header .right ul li').click(function () {
         var index = $(this).index()
         console.log(index)

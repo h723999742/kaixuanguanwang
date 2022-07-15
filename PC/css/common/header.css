@@ -5,6 +5,9 @@
     left: 50%;
     transform: translateX(-50%);
     z-index: 999;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 1920px;
+    padding-bottom: 5px;
 }
 .header1{
     
@@ -40,7 +43,7 @@
     height: 4px;
     background: linear-gradient(90deg, #197DF0 0%, #2DBAFC 100%);
     border-radius: 1px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 /* .header .right ul li:hover {

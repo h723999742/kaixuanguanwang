@@ -11,11 +11,11 @@ $(function () {
   // 顶部是否隐藏
   $(document).scroll(function () {
     var scrollTop = $(this).scrollTop()
-    if (scrollTop >= 706) {
-      $('.header').hide()
-    } else {
-      $('.header').show()
-    }
+    // if (scrollTop >= 706) {
+    //   $('.header').hide()
+    // } else {
+    //   $('.header').show()
+    // }
     if (scrollTop >= 486) {
       $('.rightRelation').show()
     } else {
