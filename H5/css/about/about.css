@@ -279,3 +279,8 @@
     font-weight: 400;
     color: #333333;
 }
+#map {
+    height: 5.16rem;
+    /* width: 1920px; */
+    background: #F8F9FA
+}
