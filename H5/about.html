@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./css/common/header.css">
     <link rel="stylesheet" href="./css/common/normalize.css">
     <link rel="stylesheet" href="./js/swiper/swiper-bundle.min.css">
+    <script type="text/javascript" src="https://api.map.baidu.com/getscript?type=webgl&v=1.0&ak=p97Zwm9eVFdWWFSQDZ9oq9a8sjwQHobl"></script>
 </head>
 
 <body>
@@ -220,6 +221,30 @@
         </div>
         <div class="pNum">福建省福州市晋安区祥杰智慧产业园1号楼209</div>
     </div>
+    <div class="map"  id="map">
+    </div>
+    <script type="text/javascript">
+        window.onload = function() {
+            setTimeout(function() {
+                var map = new BMapGL.Map("map");
+                var point = new BMapGL.Point(119.368887, 26.084591);
+                map.centerAndZoom(point, 15);
+                map.setCenter(point)
+                var marker = new BMapGL.Marker(point); // 创建标注
+                map.addOverlay(marker); // 将标注添加到地图中
+                // var opts = {
+                //     width: 1920, // 信息窗口宽度
+                //     height: 600, // 信息窗口高度
+                //     title: "凯旋君翔科技有限公司", // 信息窗口标题
+                //     message: "公司"
+                // }
+                var infoWindow = new BMapGL.InfoWindow("地址：福建省福州市晋安区鼓山镇福兴大道38号祥杰智慧产业园1#209单元"); // 创建信息窗口对象
+                map.openInfoWindow(infoWindow, point); //开启信息窗口
+
+            }, 2000)
+
+        }
+    </script>
       <!-- 底部 -->
       <div class="footer" style="margin-top: 0;">
         <div class="one">
