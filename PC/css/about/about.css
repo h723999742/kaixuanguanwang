@@ -197,10 +197,12 @@ height: 62px;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+    background-color: #000;
 }
 
 .cooperation .cooperationItem {
-    width: 480px;
+    /* width: 480px; */
+    width: 25%;
     height: 670px;
     float: left;
     position: relative;
@@ -238,7 +240,6 @@ height: 62px;
 
 .cooperation .cooperationItem:nth-child(1) {
     background: #1B1B1B;
-    width: 25%;
 
 }
 
@@ -250,7 +251,6 @@ height: 62px;
 
 .cooperation .cooperationItem:nth-child(2) {
     background: #222222;
-    width: 25%;
 }
 
 .cooperation .cooperationItem:nth-child(2) .imgBox {
@@ -262,7 +262,6 @@ height: 62px;
 
 .cooperation .cooperationItem:nth-child(3) {
     background: #0A0605;
-    width: 25%;
 }
 
 .cooperation .cooperationItem:nth-child(3) .imgBox {
@@ -273,7 +272,6 @@ height: 62px;
 
 .cooperation .cooperationItem:nth-child(4) {
     background: #282828;
-    width: 25%;
     overflow: hidden;
 }
 

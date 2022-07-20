@@ -149,6 +149,7 @@
 .culture {
     display: flex;
     flex-wrap: wrap;
+    background-color: #000;
 }
 
 .culture .cultureItem {
